@@ -1,13 +1,12 @@
-#HTML
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Megha's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="MEG port.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 
     <style>
         .flip-card {
@@ -72,9 +71,38 @@
             <a href="#education">Education</a>
             <a href="#projects">Projects</a>
             <a href="#experience">Experience</a>
+            <a href="#certification">Certifications</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
+
+    <section id="profile">       
+        <div class="profile-container">
+            <div class=""profile-pic-container">
+                <img src="/Users/meghajohn/Downloads/WhatsApp Image 2025-03-04 at 1.08.45 PM.jpeg" alt="Megha's Profile Picture" class="profile-pic">
+            </div>
+        </div>
+    </section>
+    <style>
+        #profile {
+            text-align: center;
+        }
+        .profile-pic-container {
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Centers the image */
+            margin-bottom: 20px; /* Adds space below the profile picture */
+        }
+    
+        .profile-pic {
+            width: 250px; /* Set width */
+            height: 250px; /* Set height */
+            border-radius: 50%; /* Makes the image round */
+            object-fit: cover; /* Ensures the image fits the frame */
+            border: 2px solid #ccc; /* Optional: Adds a border around the image */
+        }
+    </style>
+
     <section id="about">
         <h2>About Me</h2>
         <p>I'm a Computer Science enthusiast specializing in Software Development, Artificial Intelligence, Machine learning and real-time applications. <br> With a solid foundation in Machine Learning, Web Development, and System Design, I continuously push the boundaries of innovation.</p>
@@ -108,6 +136,7 @@
         </div>
     </section>
 
+    
     <section id="projects">
         <h2>My Projects</h2>
         <div class="flip-card">
@@ -138,6 +167,35 @@
                 </div>
             </div>
         </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="/Users/meghajohn/Downloads/imagegen.jpeg" alt="AI Powered Image Caption Generator" style="width: 120px; height: auto;">
+                    <h3>AI-Powered Image Caption Generator</h3>
+                </div>
+                <div class="flip-card-back">
+                    <p> - Developed a deep learning model that generates descriptive captions for images <br> - Used CNN and preprocessed and trained on the COCO dataset, improving accuracy with Beam Search <br> - Built an interactive Flask web app for real-time image captioning </p>
+                    <a href="https://github.com/John27052001/AI-Image-caption-Generator" target="_blank">
+                        <button style="padding: 10px 20px; background-color: white; color:black; border: 1px solid black; border-radius: 5px; cursor: pointer; width:100%">View on GitHub</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="https://static01.nyt.com/images/2014/12/11/technology/personaltech/11machin-illo/11machin-illo-articleLarge-v3.jpg?quality=75&auto=webp&disable=upscale" alt="Weather Dashboard" style="width: 100px; height: auto;">
+                    <h3>Weather Dashboard</h3>
+                </div>
+                <div class="flip-card-back">
+                    <p> - Weather Dashboard <br> - Search for any city's weather <br> - Displays temperature and weather conditions <br> - Simple and responsive design</p>
+                    <a href="https://github.com/John27052001/Weather-Dashboard-project" target="_blank">
+                        <button style="padding: 10px 20px; background-color: white; color:black; border: 1px solid black; border-radius: 5px; cursor: pointer; width:100%">View on GitHub</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
         <div class="flip-card">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
@@ -194,7 +252,29 @@
         </div>
         
 
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certification-card-container">
+            <div class="certification-card">
+                <div class="front">
+                    <img src="/Users/meghajohn/Downloads/PROJECT/GOOGLE IT CERT.png" alt = "Google IT Automation with Python Professional Certificate" style="width: 100%; max-width: 400px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                </div>
+                <div class="back">
+                    <p> <strong> Skills: </strong> <br> - Python <br> - IT Automation and Scripting <br> - Version Control with Git and GitHub <br> - Cloud and Configuration Management <br> - Networking and Security </p>
+                </div>
+            </div>
+            <div class="certification-card">
+                <div class="front">
+                    <img src="/Users/meghajohn/Downloads/PROJECT/Software engineer.png" alt = "Software engineer Skills" style="width: 100%; max-width: 400px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                </div>
+                <div class="back">
+                    <p> <strong> Skills: </strong> <br> - Python Programming <br> - C# Programming <br> - Problem Solving <br> - SQL <br> REST API </p>
+                </div>
+            </div>
+        </div>
     </section>
+    
+
     <section id="contact">
         <h2>Contact Me</h2>
         <div class="contact-icons">
@@ -205,3 +285,4 @@
     </section>
 </body>
 </html>
+
