@@ -182,6 +182,17 @@
             <h3> Software Developer Intern | Hindustan Aeronautics Limited | Bangalore, India	 |   Jan 2022-Mar 2022</h3>
             <p> - Managed SQL and NoSQL databases, optimizing queries for faster processing <br> - Developed and debugged business logic modules to enhance application performance <br> - Assisted in refactoring legacy code, improving maintainability and efficiency </p>
         </div>
+    <section id="certifications">
+
+        <h2>Certifications</h2>
+        <div class="certification-card">
+            <h3>Python for Data Science and Machine Learning Bootcamp | Udemy</h3>
+            <p>Issued: Jan 2023 | Expiry: None</p>
+            <a href="https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/" target="_blank">
+                <button style="padding: 10px 20px; background-color: white; color: black; border: 1px solid black; border-radius: 5px; cursor: pointer; width: 100%;">View on Udemy</button>
+            </a>
+        </div>
+        
 
     </section>
     <section id="contact">
